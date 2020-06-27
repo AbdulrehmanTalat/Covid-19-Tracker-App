@@ -8,7 +8,6 @@ export const Chart = ({data:{confirmed,deaths, recovered},country}) => {
     const FetchhApi = async () => {
         setDailyData(await fetchDailyData());
     }
-    console.log(dailyData);
     FetchhApi();
     },[]);
     const lineChart = (
@@ -27,7 +26,7 @@ export const Chart = ({data:{confirmed,deaths, recovered},country}) => {
         {
             data:dailyData.map(({deaths})=> deaths),
             label: `Deaths`,
-            borderColor: 'red',
+           // borderColor: 'red',
             borderColor: 'rgba(255,0,0,0.5)',
             fill: true,
         }
