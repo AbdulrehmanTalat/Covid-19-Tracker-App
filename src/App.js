@@ -1,5 +1,5 @@
 import React from 'react'
-import {Cards, Chart, CountryPicker, CoutryPicker} from './components';
+import {Cards, Chart, CoutryPicker} from './components';
 import styles from  './App.module.css';
 import {fetchdata} from './api/index';
 import coronaImage from './images/image.png';
