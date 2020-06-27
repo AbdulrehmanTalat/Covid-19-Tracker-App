@@ -14,7 +14,9 @@
     "react-chartjs-2": "^2.9.0",
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-native-searchable-dropdown": "^1.1.1",
+    "react-scripts": "3.4.1",
+    "react-select": "^2.0.0-beta.7"
   },
   "scripts": {
     "start": "react-scripts start",
